@@ -1,5 +1,5 @@
 # kernelpy
-A simple library for generating convolution matrices for GLSL in Python. 
+A simple python library for generating convolution matrices for GLSL. 
 
 # Examples
 
