@@ -24,7 +24,7 @@ class KernelBuilder :
 	def set_float_precision(self, float_precision) :
 		if not type(float_precision) is int :
 			raise Exception("Argument must be an integer to set floating point precision.")
-		self.float_precision = "{:10." + str(float_precision) + "f}"
+		self.float_precision = "{:1." + str(float_precision) + "f}"
 		
 	def set_function(self,  functions) :
 		self.functions = functions
